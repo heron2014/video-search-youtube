@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import YTSearch from 'youtube-api-search';
 
 import SearchBar from './components/search_bar';
+import API_KEY from './components/keys';
 
-const API_KEY = 'AIzaSyBgNHbq_fOByrSIXQCI3NJC3N9sSZls4g8';
 // Create a new component , which produece some html
 const App = () => {
   return (
