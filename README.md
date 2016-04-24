@@ -1,4 +1,4 @@
-## video-search-youtube
+m ## video-search-youtube
 Video search using YouTube API build with React
 
 ## How to run this project
@@ -56,7 +56,7 @@ class SearchBar extends React.Component {
 }
 ```
 
-Class based component must have **render** method, they also have **state object** which keeps the internal record of the component when is rendered.
+Class based component must have **render** method, they also have **state object** which keeps the internal record of the component when is rendered. Official docs [Which Components should have state?](http://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html#what-components-should-have-state)
 
 All JS classes have special **constructor** function, which is the first and only function called automatically whenever **new instance of the class is created**.
 
@@ -65,11 +65,13 @@ Constructor function initialize variables, states.
 
 In above example **Component** is the parent of the SearchBar component.
 
-**this.state = {...}** is only used once in a constructor. Nowhere else. To update the state we use method: **setState()** 
+**this.state = {...}** is only used once in a constructor. Nowhere else. To update the state we use method: **setState()**
 
 
 #### Reference
 This project is based on boilerplate and tutorial by [StephenGrider](https://github.com/StephenGrider/ReduxSimpleStarter)
+
+[ES6 Classes](http://facebook.github.io/react/docs/reusable-components.html#es6-classes)
 
 #### Packages
 youtube-api-search
